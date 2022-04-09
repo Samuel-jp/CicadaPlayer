@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
       "Tony Liu" => "shengqiang@luminesence.jp"
   }
   # 源码，头文件，库文件
-  spec.vendored_frameworks = './platform/Apple/products/CicadaPlayerSDK.framework', './platform/Apple/products/alivcffmpeg.framework'
+  spec.vendored_frameworks = 'platform/Apple/products/CicadaPlayerSDK.framework', 'platform/Apple/products/alivcffmpeg.framework'
   # 编译选项
   spec.ios.deployment_target = '11.0'
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 arm64' }
