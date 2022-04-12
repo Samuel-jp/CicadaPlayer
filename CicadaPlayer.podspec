@@ -10,13 +10,13 @@ Pod::Spec.new do |spec|
   # 基础信息
   spec.name = "CicadaPlayer"
   spec.version = "0.4.1"
-  spec.source = { :git => "https://github.com/alibaba/CicadaPlayer.git", :tag => "aiai-#{spec.version}" }
+  spec.source = { :git => "https://github.com/Samuel-jp/CicadaPlayer.git", :tag => "aiai-#{spec.version}" }
   # 描述信息
   spec.summary = "CicadaPlayer is the player core of AliPlayer."
   spec.description = <<-DESC 
   CicadaPlayer is the player core of AliPlayer, which support multiple platform Android, iOS, macOS, Windows, Linux, and WebAssembly for now. The goal is providing a player core which support multi platform, hardware accelerator, customizable and extensible features. Which support WideVine drm and LL-HLS dash.
   DESC
-  spec.homepage = "https://github.com/alibaba/CicadaPlayer"
+  spec.homepage = "https://github.com/Samuel-jp/CicadaPlayer"
   spec.license = { :type => "MIT", :text => <<-LICENSE
   Copyright (c) 2019-present Alibaba Inc.
   LICENSE
