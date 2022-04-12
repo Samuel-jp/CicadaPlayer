@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   # 基础信息
   spec.name = "CicadaPlayer"
   spec.version = "0.4.1"
-  spec.source = { :git => "https://github.com/alibaba/CicadaPlayer.git", :tag => "#{spec.version}" }
+  spec.source = { :git => "https://github.com/alibaba/CicadaPlayer.git", :tag => "aiai-#{spec.version}" }
   # 描述信息
   spec.summary = "CicadaPlayer is the player core of AliPlayer."
   spec.description = <<-DESC 
