@@ -1704,7 +1704,7 @@ void SuperMediaPlayer::doRender()
 {
     bool rendered = false;
 
-    if (mSeekFlag && mPlayStatus != PLAYER_PREPARING) {
+    if ((mSeekFlag||!mFirstRendered) && mPlayStatus != PLAYER_PREPARING) {
         if (HAVE_VIDEO && mAppStatus != APP_BACKGROUND) {
             rendered = RenderVideo(true);
 
